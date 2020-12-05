@@ -1,0 +1,117 @@
+:root {
+    --black: #262626;
+    --white: #F2F2F2;
+}
+body {
+    background-color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}    
+.menu {
+    overflow: hidden;
+    background-color: var(--black);
+    position: relative;
+  }  
+.menu #myLinks {
+    display: none;
+  }
+.menu a {
+    color: var(--white);
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+.menu a.icon {
+    background: var(--black);
+    display: block;
+    position: absolute;
+    right: 1;
+    top: 0;
+  }
+.menu a:hover {
+    background-color: var(--black);
+    color: var(--white);
+  }
+.bag_rattet {
+    width: 70%;
+    height: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .bag_rattet_mobil {
+    width: 70%;
+    height: 60rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .dans {
+    width: 70%;
+    height: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .dans2 {
+    width: 70%;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .dansmobil {
+    width: 70%;
+    height: 37rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .rumrejsen {
+    width: 70%;
+    height: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .text {
+      color: var(--white);
+      padding: 0 6rem;
+      font-size: 1rem;
+  }
+  video {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .about {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: var(--white);
+    margin-left: 4.5rem;
+    margin-top: 7rem;
+    max-width: 32rem;
+  }
+  .about2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      color: var(--white);
+      margin-left: 4.5rem;
+      margin-top: 3rem;
+      
+  }
+  .footer {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8rem;
+  }
