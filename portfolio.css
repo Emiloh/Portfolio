@@ -34,7 +34,7 @@ body {
   }
 .bag_rattet {
     width: 70%;
-    height: 20rem;
+    height: 16rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -108,10 +108,25 @@ body {
       margin-top: 3rem;
       
   }
+  .contact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      color: var(--white);
+      margin-left: 4rem;
+      margin-top: 4rem;
+      line-height: 4rem;
+  }
   .footer {
     text-align: center;
     font-size: 1rem;
     color: var(--white);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 8rem;
+  }
+  .footercontact {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20rem;
   }
