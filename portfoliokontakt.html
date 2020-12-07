@@ -5,24 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 <!--Menu button-->
-<div class="menu">
-  <a href="portfoliohjem.html" class="active"></a>
-    <div id="myLinks">
-      <a href="portfoliohjem.html">Hjem</a>
-      <a href="portfolioommig.html">Om mig</a>
-      <a href="portfoliokontakt.html">Kontakt</a>
-    </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-</div>  
+<div id="mylinks" class="menulinks">
+  <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+  <a href="portfoliohjem.html">Hjem</a>
+  <a href="portfolioommig.html">Om mig</a>
+  <a href="portfoliokontakt.html">Kontakt</a>
+</div>
+<button class="openbutton" onclick="openNav()">&#9776;</button>
 <p class="contact">Emil Shervin Hyldgaard Barimani
-<br>Tlf nr.: 27 66 47 55
+<br>Telefon: 27 66 47 55
 <br>E-mail: emilhyldgaard1@gmail.com</p>
 <footer>
   <p class=footercontact>© EMIL SHERVIN HYLDGAARD BARIMANI. ALL RIGHTS RESERVED.</p>
