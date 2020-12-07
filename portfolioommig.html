@@ -5,21 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om mig</title>
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
 <!--Menu button-->
-<div class="menu">
-  <a href="portfolioommig.html" class="active"></a>
-  <div id="myLinks">
-    <a href="portfoliohjem.html">Hjem</a>
-    <a href="portfolioommig.html">Om mig</a>
-    <a href="portfoliokontakt.html">Kontakt</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+<div id="mylinks" class="menulinks">
+  <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+  <a href="portfoliohjem.html">Hjem</a>
+  <a href="portfolioommig.html">Om mig</a>
+  <a href="portfoliokontakt.html">Kontakt</a>
 </div>
+<button class="openbutton" onclick="openNav()">&#9776;</button>
 <p class="about">Jeg hedder Emil og bor i Roskilde.
   Jeg er 24 år og læser til multimediedesigner på Zealand i Køge.</p>
 <p class="about2">Uddannelse:
@@ -38,7 +34,6 @@
 <br>- Vareopfyldning 
 <br>- Rengøring/oprydning 
 <br>- Lagerarbejde
-</p>
 </p>
 <footer>
     <p class=footer>© EMIL SHERVIN HYLDGAARD BARIMANI. ALL RIGHTS RESERVED.</p>
