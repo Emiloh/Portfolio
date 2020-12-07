@@ -4,37 +4,56 @@
     --white: #F2F2F2;
 }
 body {
-    background-color: #262626;
+    background-color: var(--black);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*Styling for the menu*/
-.menu {
-    overflow: hidden;
-    background-color: var(--black);
-    position: relative;
-  }  
-.menu #myLinks {
-    display: none;
-  }
-.menu a {
-    color: var(--white);
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-.menu a.icon {
-    background: var(--black);
-    display: block;
-    position: absolute;
-    right: 1;
-    top: 0;
-  }
-.menu a:hover {
-    background-color: var(--black);
-    color: var(--white);
-  }
+/* Menu button */
+/* Text when the menu is opened */
+.menulinks {
+  height: 200px;
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: var(--black);
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+/* Links */
+.menulinks a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  color: var(--white);
+  display: block;
+  transition: 0.3s;
+}
+
+/* Close button */
+.menulinks .closebutton {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Button to open the menu */
+.openbutton {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 15px;
+  border: none;
+}
+.openbutton:hover {
+  background-color: var(--black);
+}
 
 /*Image styling*/
 .bag_rattet {
@@ -44,6 +63,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
+  border: 0;
 }
 .bag_rattet_mobil {
   width: 70%;
@@ -52,6 +72,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
+  border: 0;
 }
 .dans {
   width: 70%;
@@ -60,6 +81,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
+  border: 0;
 }
 .dans2 {
   width: 70%;
@@ -68,6 +90,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
+  border: 0;
 }
 .dansmobil {
   width: 70%;
@@ -76,14 +99,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
+  border: 0;
 }
 .rumrejsen {
   width: 70%;
-  height: 20rem;
+  height: 16rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
+  border: 0;
 }
 .text {
   color: var(--white);
