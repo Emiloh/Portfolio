@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-21WHKQ4XX6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'G-21WHKQ4XX6');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
-    
+
+<!--Menu button-->
+<div id="mylinks" class="menulinks">
+  <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+  <a href="portfoliohjem.html">Hjem</a>
+  <a href="portfolioommig.html">Om mig</a>
+  <a href="portfoliokontakt.html">Kontakt</a>
+</div>
+<button class="openbutton" onclick="openNav()">&#9776;</button>
+<p class="contact">Emil Shervin Hyldgaard Barimani
+<br>Telefon: 27 66 47 55
+<br>E-mail: emilhyldgaard1@gmail.com</p>
+<footer>
+  <p class=footercontact>© EMIL SHERVIN HYLDGAARD BARIMANI. ALL RIGHTS RESERVED.</p>
+</footer>
+<script src="portfolio.js"></script>  
 </body>
 </html>

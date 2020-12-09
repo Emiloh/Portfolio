@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QFZC0DTPEE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QFZC0DTPEE');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hjem</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
+
+<!--Menu button-->
+<div id="mylinks" class="menulinks">
+    <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+    <a href="portfoliohjem.html">Hjem</a>
+    <a href="portfolioommig.html">Om mig</a>
+    <a href="portfoliokontakt.html">Kontakt</a>
+</div>
+<button class="openbutton" onclick="openNav()">&#9776;</button>
+
+<!--Image links-->
+<a href="forside.html">
+    <img class="bag_rattet" alt="forside" src="bag_rattet.png">
+</a>
+<p class="text">Studieprojekt: 
+    <br>Hjemmeside for et bilmærke. I dette projekt skulle jeg lave hjemmesiden om til desktop fra mobil. 
+    Jeg har kodet en side, hvor min studiegruppe har kodet de resterende. Jeg har arbejdet med Adobe XD 
+    for at lave wireframes og mockups. Jeg har også lavet en contentplan og indholdskalender.</p>
+<a href="forsiderebellion.html">
+    <img class="bag_rattet_mobil" alt="forsidemobil" src="bag_rattet_mobil.png">
+</a>
+<p class="text">Studieprojekt:
+    <br>Hjemmeside for et bilmærke til mobil. 
+    Jeg har brugt Adobe XD til at lave et wireframe og et mockup. 
+    Jeg har udarbejdet personaer.</p>
+<a href="kontakt.html">
+    <img class="dans" alt="dans" src="dans.png">
+</a>
+<a href="kontakt.html">
+    <img class="dans2" alt="dans2" src="dans2_mobil.png">
+</a>
+<p class="text">Studieprojekt:
+    <br>Hjemmeside for en danskeskole til desktop. 
+    Jeg har brugt tid på design thinking og lavet et moodboard. 
+    Hjemmesiden fungerer både på desktop og mobil.</p>
+<a href="kontaktmobil.html">
+    <img class="dansmobil" alt="dansmobil" src="dans_mobil.png">
+</a>
+<p class="text">Studieprojekt:
+    <br>Hjemmeside for en danskeskole til mobil. 
+    Jeg lavede en sketch til hvordan hjemmesiden skulle se ud. Jeg lavede personaer ud fra vores målgruppe. 
+    Jeg har sammen med min studiegruppe arbejdet med idegenerering.</p>
+<a href="index.html">
+    <img class="rumrejsen" alt="rumrejsen" src="rumrejsen.png">
+</a>
+<p class="text">Studieprojekt:
+    <br>Hjemmeside til folk som er interesseret i rumrejser. 
+    Her har jeg arbejdet med ideer til siden, design og et koncept. 
+    Jeg har redigeret billeder i Adobe Photoshop.</p>
     
+<!--Movie-->
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+<p class="text">Studieprojekt:
+    <br>Videoportræt. Jeg har arbejdet med professionelt kamera
+    og lyd. Jeg har redigeret videoen i Adobe Premiere.</p>
+<footer>
+    <p class=footer>© EMIL SHERVIN HYLDGAARD BARIMANI. ALL RIGHTS RESERVED.</p>
+</footer>
+<script src="portfolio.js"></script>
 </body>
 </html>
